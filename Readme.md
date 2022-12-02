@@ -1,4 +1,5 @@
-![Build](https://github.com/rishabhverma17/Dropiwizard-Template/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master) 
+![Build](https://github.com/rishabhverma17/Dropiwizard-Template/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2FDropiwizard-Template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2FDropiwizard-Template?ref=badge_shield)
+
 
 # Dropwizard Microservice Template (Gradle)
 
@@ -27,3 +28,7 @@ This is a Dropwizard microservice template. Just fork it and start building over
 ```bash
 ./gradlew spotlessApply clean run
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2FDropiwizard-Template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2FDropiwizard-Template?ref=badge_large)
