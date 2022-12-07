@@ -1,0 +1,110 @@
+{
+  "cliCIEnvironment": null,
+  "cliCommandArgs": [
+    "fossa",
+    "analyze",
+    "--debug"
+  ],
+  "cliEnvironment": "prod",
+  "cliExitedFatally": true,
+  "cliResolvedConfig": {
+    "cmdConfig": {
+      "contents": {
+        "baseDir": {
+          "unBaseDir": "/Users/justintsugranes/Desktop/JENKINS_PIPELINES/Dropiwizard-Template/"
+        },
+        "experimental": {
+          "allowedGradleConfigs": null
+        },
+        "filterSet": {
+          "excludeFilters": {
+            "_combinedPaths": [],
+            "_combinedTargets": []
+          },
+          "includeFilters": {
+            "_combinedPaths": [],
+            "_combinedTargets": []
+          }
+        },
+        "includeAllDeps": {
+          "getFlag": false
+        },
+        "jsonOutput": {
+          "getFlag": false
+        },
+        "noDiscoveryExclusion": {
+          "getFlag": false
+        },
+        "projectRevision": {
+          "projectBranch": "master",
+          "projectName": "https://github.com/justinTsugranes/Dropiwizard-Template.git",
+          "projectRevision": "a7cb290ba6cc17b14486882e716741171ec319ba"
+        },
+        "scanDestination": {
+          "contents": [
+            {
+              "apiKey": "<REDACTED>",
+              "uri": "Nothing"
+            },
+            {
+              "projectJiraKey": null,
+              "projectLink": null,
+              "projectPolicy": null,
+              "projectReleaseGroup": null,
+              "projectTeam": null,
+              "projectTitle": null,
+              "projectUrl": null
+            }
+          ],
+          "tag": "UploadScan"
+        },
+        "severity": "debug",
+        "unpackArchives": {
+          "getFlag": false
+        },
+        "vendoredDeps": {
+          "forceRescans": false,
+          "licenseScanMethod": null
+        },
+        "vsiOptions": {
+          "binaryDiscoveryEnabled": {
+            "getFlag": false
+          },
+          "dynamicLinkingTarget": {
+            "unDynamicLinkInspect": null
+          },
+          "iatAssertion": {
+            "unIATAssertion": null
+          },
+          "vsiAnalysisEnabled": {
+            "getFlag": false
+          },
+          "vsiSkipSet": {
+            "unVSISkipResolution": []
+          }
+        }
+      },
+      "tag": "Standard"
+    },
+    "cmdName": "analyze"
+  },
+  "cliStartedAt": "2022-12-03T20:33:44.444453Z",
+  "cliSystemInfo": {
+    "systemCapabilities": 16,
+    "systemInfoArch": "x86_64",
+    "systemInfoOs": "darwin",
+    "systemProcessors": 16
+  },
+  "cliTelLogs": [
+    {
+      "message": "----------\nFailed\n\n>>> Relevant errors\n\n  Error\n\n    No analysis targets found in directory.\n\n    Make sure your project is supported. See the user guide for details:\n        https://github.com/fossas/fossa-cli/blob/v3.6.7/docs/README.md\n\n\n    Traceback:\n      - fossa-analyze\n\n",
+      "severity": "error",
+      "ts": "2022-12-03T20:33:50.962467Z"
+    }
+  ],
+  "cliTelemetryId": "3262d6bf-6415-4000-b0bb-36403424c461",
+  "cliTimedDurations": [],
+  "cliTotalDurationInSec": 6.519769,
+  "cliUsageCounter": {},
+  "cliVersion": "v3.6.7"
+}
