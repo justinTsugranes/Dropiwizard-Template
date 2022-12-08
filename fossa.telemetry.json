@@ -11,7 +11,7 @@
     "cmdConfig": {
       "contents": {
         "baseDir": {
-          "unBaseDir": "/Users/justintsugranes/Desktop/JENKINS_PIPELINES/Dropiwizard-Template/"
+          "unBaseDir": "/Users/justintsugranes/Desktop/FOSSA/Code/dropwizard-release-group/Dropiwizard-Template/"
         },
         "experimental": {
           "allowedGradleConfigs": null
@@ -38,7 +38,7 @@
         "projectRevision": {
           "projectBranch": "master",
           "projectName": "https://github.com/justinTsugranes/Dropiwizard-Template.git",
-          "projectRevision": "a7cb290ba6cc17b14486882e716741171ec319ba"
+          "projectRevision": "de480736634ed6716cc14de2f4102bd776691afa"
         },
         "scanDestination": {
           "contents": [
@@ -88,7 +88,7 @@
     },
     "cmdName": "analyze"
   },
-  "cliStartedAt": "2022-12-03T20:33:44.444453Z",
+  "cliStartedAt": "2022-12-08T16:25:09.706609Z",
   "cliSystemInfo": {
     "systemCapabilities": 16,
     "systemInfoArch": "x86_64",
@@ -99,12 +99,12 @@
     {
       "message": "----------\nFailed\n\n>>> Relevant errors\n\n  Error\n\n    No analysis targets found in directory.\n\n    Make sure your project is supported. See the user guide for details:\n        https://github.com/fossas/fossa-cli/blob/v3.6.7/docs/README.md\n\n\n    Traceback:\n      - fossa-analyze\n\n",
       "severity": "error",
-      "ts": "2022-12-03T20:33:50.962467Z"
+      "ts": "2022-12-08T16:25:18.997029Z"
     }
   ],
-  "cliTelemetryId": "3262d6bf-6415-4000-b0bb-36403424c461",
+  "cliTelemetryId": "c3bd3ea7-0f17-4555-82ac-b8e32289c56b",
   "cliTimedDurations": [],
-  "cliTotalDurationInSec": 6.519769,
+  "cliTotalDurationInSec": 9.292223,
   "cliUsageCounter": {},
   "cliVersion": "v3.6.7"
 }
