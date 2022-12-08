@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 git credentialsId: 'MyGitHub', url: 'https://github.com/justinTsugranes/Dropiwizard-Template'
-                sh ./gradlew spotlessApply clean build
+                sh './gradlew spotlessApply clean build'
             }
         }
         stage('Analyze'){
